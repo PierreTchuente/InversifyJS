@@ -1,6 +1,6 @@
 # Multi-injection
 
-We can use multi-injection When two or more concretions have been bound to the an abstraction.
+We can use multi-injection When two or more concretions have been bound to the same abstraction.
 Notice how an array of `Weapon` is injected into the `Ninja` class via its constructor thanks to the usage of the `@multiInject` decorator:
 
 ```ts
